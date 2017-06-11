@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plen-opensource.RabbitMQClient", "plen-opensource.RabbitMQClient\plen-opensource.RabbitMQClient.csproj", "{AD62369C-7DEA-4B7A-81DB-E4701A442A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plen-opensource.RabbitMQClient.ConsoleHost", "plen-opensource.RabbitMQClient.Host\plen-opensource.RabbitMQClient.ConsoleHost.csproj", "{8216B255-2B64-4464-BD18-E87E75B5C089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plen-opensource.RabbitMQClient.Test", "plen-opensource.RabbitMQClient.Test\plen-opensource.RabbitMQClient.Test.csproj", "{B1F5D494-069C-425F-8A77-457DA97AEB42}"
+EndProject
+Global
+	
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD62369C-7DEA-4B7A-81DB-E4701A442A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD62369C-7DEA-4B7A-81DB-E4701A442A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD62369C-7DEA-4B7A-81DB-E4701A442A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD62369C-7DEA-4B7A-81DB-E4701A442A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8216B255-2B64-4464-BD18-E87E75B5C089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8216B255-2B64-4464-BD18-E87E75B5C089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8216B255-2B64-4464-BD18-E87E75B5C089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8216B255-2B64-4464-BD18-E87E75B5C089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F5D494-069C-425F-8A77-457DA97AEB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F5D494-069C-425F-8A77-457DA97AEB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F5D494-069C-425F-8A77-457DA97AEB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F5D494-069C-425F-8A77-457DA97AEB42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

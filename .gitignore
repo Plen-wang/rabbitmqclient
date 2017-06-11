@@ -1,0 +1,13 @@
+*.suo
+[Oo]bj
+[Bb]in
+![Bb]in/*.refresh
+Release
+logs
+.gitattributes
+*/packages/
+*.orig
+*.user
+*/TestResults/
+*.Cache
+*/applicationhost.config
