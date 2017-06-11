@@ -1,0 +1,2 @@
+# rabbitmqclient
+rabbitmq .net client
