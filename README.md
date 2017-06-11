@@ -2,7 +2,7 @@
 rabbitmq .net client
 
 ## 接受消息
-、、、
+```
 private static void Listening()
         {
             RabbitMqClient.Instance.ActionEventMessage += mqClient_ActionEventMessage;
@@ -22,10 +22,10 @@ private static void Listening()
                 Console.WriteLine(message.ModifiedBy);
             }
         }
-、、、
+```
 
 ## 发送消息
-、、、
+```
 
 private static void SendEventMessage()
         {
@@ -49,4 +49,4 @@ private static void SendEventMessage()
             }
         }
 
-、、、
+```
